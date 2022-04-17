@@ -1,0 +1,25 @@
+./server/node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./cchat/node_modules
+./cchat/.pnp
+./cchat/.pnp.js
+
+# testing
+./cchat/coverage
+
+# production
+./cchat/build
+
+# misc
+./cchat/.DS_Store
+./cchat/.env.local
+./cchat/.env.development.local
+./cchat/.env.test.local
+./cchat/.env.production.local
+
+./cchat/npm-debug.log*
+./cchat/yarn-debug.log*
+./cchat/yarn-error.log*
